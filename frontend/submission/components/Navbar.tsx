@@ -18,11 +18,11 @@ export default function Navbar() {
           strokeWidth={3}
         />
       </NavItem> 
-      <NavItem src="browse" active={pathname.includes("browse")}>
+      <NavItem src="/" active={pathname.includes("/")}>
         <LayoutGrid 
           size={24}
-          fill={pathname.includes("browse") ? "white" : "#ed6d00"}
-          className={pathname.includes("browse") ? "text-white" : "text-main-orange"}
+          fill={pathname.includes("/") ? "white" : "#ed6d00"}
+          className={pathname.includes("/") ? "text-white" : "text-main-orange"}
         />
       </NavItem> 
       <NavItem src="">
